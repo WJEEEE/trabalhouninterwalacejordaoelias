@@ -1,0 +1,68 @@
+/*comando para definir background e separar abas do site*/
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 42, 42);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*defini a distançia e centralização das abas*/
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*comando para colocar uma transição de cor suave entre as abas*/
+a:hover{
+    color: rgb(163, 74, 156);
+    transition: 0.3s all;
+}
+
+/*defini tamanho e borda da imagem escolhida por mim*/
+img {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+/*comando para definir cor de transição de cada aba*/
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   align-items: center;
+   color:rgb(163, 74, 156);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+h3 {
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    padding: 10px 0px
+}
+
+.bordas {
+     padding: 10px 50px;
+}
+
+/*alterei e deixei visualmente melhor os paragrafos*/
+p{
+    line-height: 20px;
+    max-width: 2000px;
+}
